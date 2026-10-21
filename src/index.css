@@ -721,3 +721,26 @@ html, body, .header, .service-card, .work-box, .achievement-card, .tech-icon-box
   :root { scroll-behavior: auto; }
   *, *::before, *::after, html, body, .header, .service-card, .work-box, .achievement-card, .tech-icon-box, .theme-toggle-btn, .about-me, .contact-form-card, .contact-input, .contact-textarea, .footer-bar, .education-card { transition: none !important; }
 }
+
+/* Suppress Netlify injected badges and drawer */
+netlify-drawer,
+#netlify-drawer,
+iframe[src*="netlify"],
+iframe[title*="Netlify" i],
+[data-netlify-deploy-id],
+.netlify-badge,
+[class*="netlify-badge"],
+[id*="netlify-badge"],
+div:has(> a[href*="netlify.com"]),
+a[href*="netlify.com"][class*="badge"],
+div[class*="feedback"][class*="netlify"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0) !important;
+}
+
