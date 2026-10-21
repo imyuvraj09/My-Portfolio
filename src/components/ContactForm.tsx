@@ -162,10 +162,16 @@ const ContactForm: React.FC = () => {
           aria-hidden="true"
           style={{
             position: "absolute",
-            left: "-9999px",
+            top: "0",
+            left: "0",
             width: "1px",
             height: "1px",
+            padding: "0",
+            margin: "-1px",
             overflow: "hidden",
+            clip: "rect(0, 0, 0, 0)",
+            whiteSpace: "nowrap",
+            border: "0",
             opacity: 0,
             pointerEvents: "none",
           }}
