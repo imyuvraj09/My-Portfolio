@@ -58,30 +58,6 @@ My experience includes research at **IISc Bengaluru**, building an AI tutor for 
 
 The technologies displayed in the website’s skills section describe my broader technical background. They are not all dependencies of this portfolio.
 
-## Featured Projects
-
-### DislocationTrace
-
-A web-based framework developed during my research internship at **IISc Bengaluru** for analyzing transmission electron microscopy images.
-
-The project combines image processing, diffraction-vector indexing, and crystallographic analysis to support automated dislocation trace analysis and Burgers vector determination.
-
-**Focus:** Computer Vision · Scientific Computing · Research Software
-
-### RAG-Enhanced LLM Legal Assistant for India
-
-An ongoing AI application that makes Indian legal information easier to search and understand through semantic retrieval and source-grounded prompting.
-
-**Technologies:** LangChain · FAISS · Hugging Face · LLM APIs · Streamlit
-
-### AI Education Tutor for Remote India
-
-An AI tutor designed for communities with limited bandwidth and intermittent connectivity.
-
-The project reduced token overhead by approximately **40%** and improved response latency by approximately **30%** through context optimization and inference-pipeline improvements.
-
-**Technologies:** Python · LangChain · Hugging Face · LLM APIs · Streamlit
-
 ## Project Structure
 
 The full development project uses the following structure:
